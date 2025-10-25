@@ -1,10 +1,10 @@
-🏥 ClinicHub
+ ClinicHub
 Um sistema de agendamento e gerenciamento de pacientes intuitivo, projetado para clínicas de pequeno porte.
 
-🌟 Descrição do Projeto
+ Descrição do Projeto
 O ClinicHub é uma aplicação de desktop desenvolvida em Python com a biblioteca PySide6 (Qt for Python), com o objetivo de facilitar a gestão diária de uma clínica de pequeno porte. Ele oferece uma interface gráfica amigável para visualizar o quadro de pacientes, o corpo clínico e o calendário de atividades, além de funcionalidades essenciais para o gerenciamento de consultas.
 
-✨ Funcionalidades
+Funcionalidades
 O sistema está estruturado em torno de três telas principais, acessíveis através de um menu lateral:
 
 Início (Dashboard):
@@ -27,7 +27,7 @@ Lista todos os médicos da clínica em cards específicos.
 
 Cada card de médico exibe: Nome, Especialidade e número do CRM.
 
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 Python: Linguagem de programação principal.
 
 PySide6 (Qt for Python): Framework utilizado para a construção da interface gráfica (GUI).
@@ -40,7 +40,7 @@ QtGui: Manipulação de fontes e cores.
 
 QtCore: Sinais, slots e alinhamento.
 
-⚙️ Estrutura do Código (ClinicHub.py)
+Estrutura do Código (ClinicHub.py)
 O código está modularizado em classes PySide6, o que facilita a manutenção e a expansão do projeto.
 
 1. Dados Iniciais
@@ -67,7 +67,7 @@ Medicos: Semelhante à classe Pacientes, carrega e exibe os cards do corpo clín
 4. Estilização (QSS)
 A aplicação utiliza stylesheets (.setStyleSheet()) para aplicar um tema visual leve e moderno, com cores claras e bordas arredondadas, melhorando a experiência do usuário.
 
-🚀 Como Executar o Projeto
+Como Executar o Projeto
 Pré-requisitos: Certifique-se de ter o Python instalado.
 
 Instalar PySide6:
