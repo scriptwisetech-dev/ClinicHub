@@ -72,11 +72,9 @@ Pré-requisitos: Certifique-se de ter o Python instalado.
 
 Instalar PySide6:
 
-Bash
+
 
 pip install PySide6
-Executar:
 
-Bash
 
 python ClinicHub.py
